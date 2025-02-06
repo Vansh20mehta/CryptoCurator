@@ -53,7 +53,10 @@ public class AssetController {
         return ResponseEntity.ok().body(asset);
     }
     
-
+    @GetMapping("/test")
+    public String testing(){
+        return "testing";
+    }
 
   
 
